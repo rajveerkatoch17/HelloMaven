@@ -1,0 +1,7 @@
+- name: BAsic server setup
+  hosts: local
+  become: false
+  tasks:
+    - name: Example App
+      debug:
+        msg: "This is Harshal"
